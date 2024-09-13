@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Случайная цитата</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .quote {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .author {
+            font-size: 18px;
+            margin-top: 10px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1> Цитата и её автор: </h1>
+    <div class="quote">{{ quote['content'] }}</div>
+    <div class="author">- {{ quote['author'] }}</div>
+</body>
+</html>
